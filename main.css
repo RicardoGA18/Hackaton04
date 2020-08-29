@@ -1,0 +1,498 @@
+/*Global*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:rgb(180, 179, 179);
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    background-color: rgb(34, 34, 34);
+}
+
+body{
+    width: 1270px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+}
+
+.head{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.head img{
+    position: absolute;
+    height: 100%;
+    left: 20px;
+}
+
+
+/*navegador*/
+
+.head nav{
+    position: absolute;
+    right: 70px;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.head ul{
+    display: flex;
+    position: relative;
+}
+.head li{
+    list-style: none;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+.head li a{
+    text-decoration: none;
+}
+
+
+/*Bienvenida*/
+
+.head-body{
+    height: 591px;
+    position: relative;
+}
+
+.head-container{
+    position: absolute;
+    top: 167px;
+    left: 233px;
+}
+
+.head-container p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 8px;
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+
+.head-container h1{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.head-container span{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 5px;
+    color: rgb(226, 183, 102);
+}
+
+.head-container button{
+    border:none;
+    background-color: rgb(36, 36, 36);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/*WELCOME*/
+section.welcome{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    padding: 70px 240px 40px;
+}
+.welcome .about{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.welcome h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: rgb(226, 183, 102);
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+/*grid 1*/
+
+.caja-grid-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+
+}
+
+.welcome .description{
+    color: rgb(180, 179, 179);
+    margin-bottom: 30px;
+    font-size: 0.8rem;
+}
+
+.welcome .one{
+    color: rgb(226, 183, 102);
+    font-weight: bold;
+}
+
+.welcome .two{
+    color: white;
+    font-weight: bold;
+}
+
+.welcome a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    color: rgb(219, 219, 219);
+}
+.welcome p{
+    font-size: 0.8rem;
+}
+
+.welcome .bar{
+    width: 315px;
+    height: 3px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.welcome .sub-bar-1{
+    width: 89%;
+    height: 100%;
+    background-color: black;
+}
+
+.welcome .sub-bar-2{
+    width: 76%;
+    height: 100%;
+    background-color: black;
+}
+
+
+/*grid 2*/
+.welcome .caja-grid-2{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 200px 1fr 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.caja-grid-2 img{
+    width: 70px;
+    height: 70px;
+}
+
+.caja-grid-2 .laptop{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja-grid-2 .laptop img{
+    width: 80%;
+    height: 300px;
+}
+
+.caja-grid-2 h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.caja-grid-2 p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.caja-grid-2 .pent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Projects*/
+
+.projects{
+    padding: 70px 240px;
+}
+.caja-grid-3{
+    display: grid;
+    width:100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 130px 205px 205px 200px;
+    grid-gap: 20px;
+}
+.caja-grid-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*item 1*/
+.grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(46, 46, 46);
+}
+
+.grid-item-1 p{
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    margin-top: 25px;
+}
+
+.grid-item-1 h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: rgb(226, 183, 102);
+}
+
+/*item 4*/
+.grid-item-4{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(46, 46, 46);
+}
+
+
+.caja-grid-3 img.animal{
+    width: 187px;
+    height: 177px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.grid-item-4 h3{
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.grid-item-4 p{
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.grid-item-5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-item-7{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/*director*/
+section.director{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    padding: 80px 380px;
+}
+
+.director .images{
+    display: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.images .primero{
+    width: 50px;
+    height: 50px;
+    margin-left: 160px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    opacity: 50%;
+}
+.images .segundo{
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+}
+.images .tercero{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    opacity: 50%;
+}
+
+.director p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.director .sign{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 50px;
+}
+
+.sign span{
+    margin-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+/*offers*/
+
+section.offers{
+    width: 100%;
+    padding: 55px 245px;
+    background-color:rgb(78, 78, 78); 
+}
+
+.offers p.offer{
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offers h2{
+    font-family: 'Lato', sans-serif;
+    color: rgb(226, 183, 102);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.caja-grid-4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 330px;
+    grid-gap: 20px;
+}
+
+.caja-grid-4 .grid-item{
+    background-color: rgb(34, 34, 34)
+}
+
+.caja-grid-4 .grid-item img{
+    width: 30%;
+}
+.caja-grid-4 .grid-item .imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px
+}
+
+.caja-grid-4 .grid-item h3{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.caja-grid-4 .grid-item p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.caja-grid-4 .grid-item .price{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja-grid-4 .grid-item .purchase{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 18px;
+}
+
+aside.ofertas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.ofertas .grid-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.ofertas .grid-item .foot{
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    background-color: rgb(78, 78, 78);
+    padding: 60px 240px 10px;
+}
+
+footer .caja-grid-5{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 240px 70px;
+}
+
+footer .grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: rgb(78, 78, 78);
+}
+
+footer .grid-item-final{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+
+footer h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+footer .grid-item-final p{
+    margin-top: 15px;
+}
+
+footer img{
+    width: 100%;
+}
